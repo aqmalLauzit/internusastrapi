@@ -1,0 +1,94 @@
+@import url(swiper.css);
+
+
+.bg-kedua {
+  background-color: #FFFAF3;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.carousel-control-next, 
+.carousel-control-prev{
+	height: 60px;
+	width: 60px;
+	opacity: 1;
+	z-index: 3;
+	top: 50%;
+	transform: translateY(-50%);
+  border: #FFB187 3px solid;
+	border-radius: 50%;
+	transition: all 0.3s ease;
+}
+.carousel-control-next:hover, 
+.carousel-control-prev:hover{
+   box-shadow: 0 0 10px #ffffff;
+}
+
+.carousel-item .image-aktifitas {
+  width: auto;
+  height: 100%;
+  position: relative;
+}
+.carousel-item .image-backdrop {
+  position: absolute;
+  background: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+  display: block;
+  bottom: 0;
+  z-index: 2;
+  align-items: center;
+  vertical-align:middle;
+}
+
+.text-container {
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+}
+
+.navbar-toggler-icon {
+  color: white;
+  background-color: white;
+}
+
+.navbar-toggler {
+  color: white;
+  background-color: white;
+}
+
+.counter {
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.about .box:hover h1.bi {
+  color: #fff !important;
+}
+.about .box {
+  cursor: pointer !important;
+}
+
+.no-style-list {
+  list-style: none;
+}
